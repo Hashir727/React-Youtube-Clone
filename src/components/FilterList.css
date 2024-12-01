@@ -1,0 +1,29 @@
+.filter_list-container {
+  display: flex;
+  align-items: center;
+  overflow: hidden; /* Ensure that overflow doesn't break the layout */
+}
+
+.filter_list {
+  display: flex;
+  gap: 10px; /* Adjust the gap between FilterButton components */
+  flex-shrink: 0; /* Ensure the list doesn't shrink to fit its content */
+  white-space: nowrap; /* Prevent items from wrapping to the next line */
+}
+
+.scroll-arrows {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Add any additional styling for FilterButton components if needed */
+.filter_button {
+  /* Your FilterButton styling goes here */
+}
+
+/* Add styling for the scroll buttons if needed */
+.scroll-arrows button {
+  margin: 5px;
+  cursor: pointer;
+}
